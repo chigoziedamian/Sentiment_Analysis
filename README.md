@@ -1,2 +1,2 @@
-# Sentiment_Analysis
-A simple AI Application for Sentiment Analysis, built using Python libraries
+# coding-project-template
+This repo is for the practice project which is to be based on Embedded AI libraries. 

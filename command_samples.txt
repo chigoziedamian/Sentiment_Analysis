@@ -1,0 +1,28 @@
+python3.11 test_sentiment_analysis.py
+python3.11 test_sentiment_analysis.py
+
+git clone https://github.com/ibm-developer-skills-network/zzrjt-practice-project-emb-ai.git practice_project
+
+
+git clone https://github.com/ibm-developer-skills-network/oaqjp-final-project-emb-ai.git final_project
+
+
+mkdir SentimentAnalysis
+
+mv ./sentiment_analysis.py ./SentimentAnalysis
+
+from . import sentiment_analysis
+
+
+mkdir EmotionDetection
+
+mv ./emotion_detection.py ./EmotionDetection
+
+
+from EmotionDetection.emotion_detection import emotion_detector
+emotion_detector("I hate working long hours.")
+
+python3.11 test_emotion_detection.py
+
+5a_unit_testing.png
+5b_unit_testing_result.png
